@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/NullEnt1ty/date-time-library-comparison/issues"
   },
-  "homepage": "https://github.com/NullEnt1ty/date-time-library-comparison#readme"
+  "homepage": "https://github.com/NullEnt1ty/date-time-library-comparison#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-5minds": "^0.1.0"
+  }
 }
