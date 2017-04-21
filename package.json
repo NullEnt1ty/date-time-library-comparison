@@ -20,5 +20,11 @@
   "devDependencies": {
     "eslint": "^3.19.0",
     "eslint-config-5minds": "^0.1.0"
+  },
+  "dependencies": {
+    "date-fns": "^1.28.3",
+    "js-joda": "^1.5.1",
+    "moment": "^2.18.1",
+    "moment-range": "^3.0.3"
   }
 }
