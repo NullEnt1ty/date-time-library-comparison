@@ -6,6 +6,7 @@ const LocalDate = require('js-joda').LocalDate;
 const Period = require('js-joda').Period;
 const fnsEachDay = require('date-fns/each_day');
 const fnsParse = require('date-fns/parse');
+const fnsGetISODay = require('date-fns/get_iso_day');
 
 const moment = MomentRange.extendMoment(Moment);
 
@@ -46,7 +47,10 @@ for (let i = 0; i < jodaPeriod.days() + 1; i++) {
 const fnsFrom = fnsParse(from);
 const fnsTo = fnsParse(to);
 const fnsDays = fnsEachDay(fnsFrom, fnsTo);
+workingDays = 0;
 
 for (const day of fnsDays) {
-  console.log(day);
+  if (fnsGetISODay(day) !== 6 && fnsGetISODay(day) !== 7) {
+    workingDays += 1;
+  }
 }
