@@ -25,6 +25,7 @@
     "benchmark": "^2.1.4",
     "date-fns": "^1.28.3",
     "js-joda": "^1.5.1",
+    "js-joda-extra": "^0.1.0",
     "moment": "^2.18.1",
     "moment-range": "^3.0.3"
   }
