@@ -1,16 +1,16 @@
 'use strict';
 
-// require('./tests/api/parse');
-// require('./tests/api/format');
-// require('./tests/api/manipulate');
-// require('./tests/api/working-days');
-// require('./tests/api/compare');
-// require('./tests/api/difference');
-// require('./tests/api/i18n');
-require('./tests/api/iso8601');
+// require('./src/api/parse');
+// require('./src/api/format');
+// require('./src/api/manipulate');
+// require('./src/api/working-days');
+// require('./src/api/compare');
+// require('./src/api/difference');
+// require('./src/api/i18n');
+require('./src/api/iso8601');
 
-// require('./tests/performance/parse');
-// require('./tests/performance/compare');
-// require('./tests/performance/arithmetic');
-// require('./tests/performance/diff');
-// require('./tests/performance/start-of');
+// require('./src/performance/parse');
+// require('./src/performance/compare');
+// require('./src/performance/arithmetic');
+// require('./src/performance/diff');
+// require('./src/performance/start-of');
